@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'notRiyad.github.io',
+  title: 'RE.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Riyad El Yacoubi',
+  role: 'CS Student at EPITA',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Keen on staying abreast of the latest technologies, I integrate continuous learning into my coding pursuits, finding relaxation and inspiration in my interests in football and video games.',
+  resume: '/home/riyad/my_portfolio/assets/resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/riyad-el-yacoubi-aa67b821a/',
+    github: 'https://github.com/notRiyad/',
   },
 }
 
@@ -21,9 +21,9 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'JWS & Creeps',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Crafted "Creeps," a Java-based gaming experience that blends strategy, resource management, and territorial expansion, enriching gameplay through achievement validation. Additionally, engineered a RESTful backend for an online Bomberman game, employing Quarkus and Hibernate ORM frameworks to establish a layered architecture and facilitate smooth client interaction with multiple endpoints.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
