@@ -1,5 +1,3 @@
-import { SourceCode } from "eslint";
-
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://notRiyad.github.io/my_portfolio/',
@@ -11,7 +9,7 @@ const about = {
   name: 'Riyad El Yacoubi',
   role: 'CS Student at EPITA',
   description:
-  "Devoted to ongoing learning, I embrace the latest tech trends while balancing a life enriched by passions for football and gaming. In my coding adventures, VIM's grip on me is akin to a captivating video game—you just can't quit once you're in.",
+  "Devoted to ongoing learning, I embrace the latest tech trends while balancing a life enriched by passions for football and gaming.                        In my coding adventures, VIM's grip on me is akin to a captivating video game—you just can't quit once you're in.",
   resume: 'https://raw.githubusercontent.com/notRiyad/my_portfolio/main/assets/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/riyad-el-yacoubi-aa67b821a/',
@@ -45,7 +43,7 @@ const projects = [
     description:
     'Created as my inaugural project in HTML and CSS, Tic Tac Toe is a humble yet instructive endeavor. This simplistic game serves as an entry point into the world of web development, allowing me to grasp foundational concepts in HTML and CSS. While modest in scale, this project underscores my enthusiasm for learning and my commitment to mastering the fundamentals of web development.',
     stack: ["HTML", "CSS", "Javascript"],
-    SourceCode: 'https://github.com/notRiyad/TTT',
+    sourceCode: 'https://github.com/notRiyad/TTT',
   },
   {
     name: 'Malloc',
