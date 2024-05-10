@@ -1,3 +1,5 @@
+import { SourceCode } from "eslint";
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://notRiyad.github.io/my_portfolio/',
@@ -9,7 +11,7 @@ const about = {
   name: 'Riyad El Yacoubi',
   role: 'CS Student at EPITA',
   description:
-    'Keen on staying abreast of the latest technologies, I integrate continuous learning into my coding pursuits, finding relaxation and inspiration in my interests in football and video games.',
+  "Devoted to ongoing learning, I embrace the latest tech trends while balancing a life enriched by passions for football and gaming. In my coding adventures, VIM's grip on me is akin to a captivating video game—you just can't quit once you're in.",
   resume: 'https://raw.githubusercontent.com/notRiyad/my_portfolio/main/assets/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/riyad-el-yacoubi-aa67b821a/',
@@ -38,24 +40,52 @@ const projects = [
       'Collaborated within a group to construct a Unix-like shell in C, emulating core functionalities including command execution, input/output redirection, and background process management.',
     stack: ['C', 'GDB', 'Valgrind', 'Unix Shell'],
   },
-]
+  {
+    name: 'Tic Tac Toe',
+    description:
+    'Created as my inaugural project in HTML and CSS, Tic Tac Toe is a humble yet instructive endeavor. This simplistic game serves as an entry point into the world of web development, allowing me to grasp foundational concepts in HTML and CSS. While modest in scale, this project underscores my enthusiasm for learning and my commitment to mastering the fundamentals of web development.',
+    stack: ["HTML", "CSS", "Javascript"],
+    SourceCode: 'https://github.com/notRiyad/TTT',
+  },
+  {
+    name: 'Malloc',
+    description:
+      'Implemented and optimized a thread-safe memory allocation library in C, ensuring efficiency and reliability through extensive testing.',
+    stack: ['C', 'Linux', 'GDB', 'Valgrind'],
+  },
+  {
+    name: 'HTTPD',
+    description:
+      'Implemented core features for an HTTP daemon, learning network programming, asynchronous programming, and advanced Linux system calls. Handled necessary system operations for it to run as a Linux service.',
+    stack: ['C', 'Linux', 'Network Programming', 'Asynchronous Programming'],
+  }
+];
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'C/C++',
+  'Java',
+  'Javascript',
+  'PostgreSQL',
   'HTML',
   'CSS',
-  'JavaScript',
-  'Git',
-  'Jest',
-  'C',
-  'Java',
-  'C++',
-  'Python',
-  'PostgreSQL',
-  'Docker',
   'OCaml',
+  'Python',
   'Linux/Shell',
+  'Docker',
+  'JUnit',
+  'Jest',
+  'UniRest',
+  'Axios',
+  'Fetch',
+  'Express',
+  'Node.js',
+  'Hibernate ORM',
+  'Quarkus',
+  'Socket.io',
+  'Swagger',
+  'VITE'
 ]
 
 const contact = {
