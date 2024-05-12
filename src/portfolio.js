@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Riyad El Yacoubi',
-  role: 'CS Student at EPITA',
+  role: 'A CS Student at EPITA',
   description:
   "Devoted to ongoing learning, I embrace the latest tech trends while balancing a life enriched by passions for football and gaming.                        In my coding adventures, VIM's grip on me is akin to a captivating video game—you just can't quit once you're in.",
   resume: 'https://raw.githubusercontent.com/notRiyad/my_portfolio/main/assets/resume.pdf',
@@ -82,7 +82,7 @@ const skills = [
   'Hibernate ORM',
   'Quarkus',
   'Socket.io',
-  'Swagger',
+  'Swagger.io',
   'VITE'
 ]
 
