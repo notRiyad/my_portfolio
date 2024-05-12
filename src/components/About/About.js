@@ -10,14 +10,14 @@ const About = () => {
   const [cursorVisible, setCursorVisible] = useState(true);
 
   useEffect(() => {
-    const textToType = "Hi, I am " + name + '.';
+    const textToType = `Hi, I am ${name}.`;
     const textArray = textToType.split('');
     let currentIndex = 0;
-
+  
     const typingInterval = setInterval(() => {
       if (currentIndex < textArray.length) {
         setTypedText(prevTypedText => prevTypedText + textArray[currentIndex]);
-        currentIndex++;
+        currentIndex += 1; // Increment outside of setTypedText function
       } else {
         clearInterval(typingInterval);
         // Hide cursor after typing is complete
@@ -26,9 +26,10 @@ const About = () => {
         }, 500); // Adjust time to wait before hiding cursor
       }
     }, 100); // Adjust typing speed
-
+  
     return () => clearInterval(typingInterval);
   }, [name]);
+  
 
   return (
     <div className='about center'>
