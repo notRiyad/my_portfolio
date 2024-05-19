@@ -56,6 +56,12 @@ const projects = [
     description:
       'Implemented core features for an HTTP daemon, learning network programming, asynchronous programming, and advanced Linux system calls. Handled necessary system operations for it to run as a Linux service.',
     stack: ['C', 'Linux', 'Network Programming', 'Asynchronous Programming'],
+  },
+  {
+    name: 'E/Place',
+    description:
+      'Implemented the frontend of a collaborative canvas web application, inspired by Reddit\'s r/place. Utilized modern JavaScript with Vite for development and Socket.io for real-time bidirectional communication. The project required handling user authentication, managing websocket connections, and dynamically rendering canvas updates.',
+    stack: ['JavaScript', 'Vite', 'Socket.io', 'Node.js', 'HTML', 'CSS'],
   }
 ];
 
